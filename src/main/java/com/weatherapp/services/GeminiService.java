@@ -11,7 +11,7 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 public class GeminiService {
     // The correct endpoint for Gemini API
     private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent";
-    private static final String API_KEY = "AIzaSyBLRn3Z1HBqInViTKsXzIXPAiGj87W1RJ4";
+    private static final String API_KEY = ""; //give your gemini api key
 
     private final HttpClient client;
     private final ObjectMapper objectMapper;
